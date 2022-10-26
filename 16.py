@@ -24,7 +24,7 @@ s = ''
 
 alph='0123456789ABCDEF'
 while n != 0:
-   s =alph[(n % ss)-1] + s
+   s =alph[(n % ss)] + s
    n = n // ss
 print(s)
 
